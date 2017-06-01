@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C17241341EDC78FC00B8B98C /* SettingsFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17241331EDC78FC00B8B98C /* SettingsFormViewController.swift */; };
 		C1AD7B1D1EDBA47700414854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD7B1C1EDBA47700414854 /* AppDelegate.swift */; };
 		C1AD7B1F1EDBA47700414854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD7B1E1EDBA47700414854 /* ViewController.swift */; };
 		C1AD7B221EDBA47700414854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7B201EDBA47700414854 /* Main.storyboard */; };
 		C1AD7B241EDBA47700414854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7B231EDBA47700414854 /* Assets.xcassets */; };
 		C1AD7B271EDBA47700414854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AD7B251EDBA47700414854 /* LaunchScreen.storyboard */; };
+		CFE0600FE82C88A748336AE4 /* Pods_EurekaPlaygound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D88E00EE2C2A1909057A2 /* Pods_EurekaPlaygound.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970331AB6318CB2E8E06A445 /* Pods-EurekaPlaygound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPlaygound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaPlaygound/Pods-EurekaPlaygound.debug.xcconfig"; sourceTree = "<group>"; };
+		C17241331EDC78FC00B8B98C /* SettingsFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFormViewController.swift; sourceTree = "<group>"; };
 		C1AD7B191EDBA47700414854 /* EurekaPlaygound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaPlaygound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AD7B1C1EDBA47700414854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AD7B1E1EDBA47700414854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		C1AD7B231EDBA47700414854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AD7B261EDBA47700414854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1AD7B281EDBA47700414854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0177E6448A7D5C629695C32 /* Pods-EurekaPlaygound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPlaygound.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaPlaygound/Pods-EurekaPlaygound.release.xcconfig"; sourceTree = "<group>"; };
+		EB9D88E00EE2C2A1909057A2 /* Pods_EurekaPlaygound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaPlaygound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE0600FE82C88A748336AE4 /* Pods_EurekaPlaygound.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FDF25D21A57D1AE44CACC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D88E00EE2C2A1909057A2 /* Pods_EurekaPlaygound.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4612DD170CE9B99AF953A02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				970331AB6318CB2E8E06A445 /* Pods-EurekaPlaygound.debug.xcconfig */,
+				E0177E6448A7D5C629695C32 /* Pods-EurekaPlaygound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1AD7B101EDBA47700414854 = {
 			isa = PBXGroup;
 			children = (
 				C1AD7B1B1EDBA47700414854 /* EurekaPlaygound */,
 				C1AD7B1A1EDBA47700414854 /* Products */,
+				B4612DD170CE9B99AF953A02 /* Pods */,
+				0FDF25D21A57D1AE44CACC1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				C1AD7B1C1EDBA47700414854 /* AppDelegate.swift */,
 				C1AD7B1E1EDBA47700414854 /* ViewController.swift */,
+				C17241331EDC78FC00B8B98C /* SettingsFormViewController.swift */,
 				C1AD7B201EDBA47700414854 /* Main.storyboard */,
 				C1AD7B231EDBA47700414854 /* Assets.xcassets */,
 				C1AD7B251EDBA47700414854 /* LaunchScreen.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1AD7B2B1EDBA47700414854 /* Build configuration list for PBXNativeTarget "EurekaPlaygound" */;
 			buildPhases = (
+				CF8BDE65381796D3EBA1869A /* [CP] Check Pods Manifest.lock */,
 				C1AD7B151EDBA47700414854 /* Sources */,
 				C1AD7B161EDBA47700414854 /* Frameworks */,
 				C1AD7B171EDBA47700414854 /* Resources */,
+				4F2B18FBAD37A205911C8CFB /* [CP] Embed Pods Frameworks */,
+				EFCB9AF29DB34C3C26B0B9FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F2B18FBAD37A205911C8CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaPlaygound/Pods-EurekaPlaygound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8BDE65381796D3EBA1869A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCB9AF29DB34C3C26B0B9FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaPlaygound/Pods-EurekaPlaygound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1AD7B151EDBA47700414854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +217,7 @@
 			files = (
 				C1AD7B1F1EDBA47700414854 /* ViewController.swift in Sources */,
 				C1AD7B1D1EDBA47700414854 /* AppDelegate.swift in Sources */,
+				C17241341EDC78FC00B8B98C /* SettingsFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +336,7 @@
 		};
 		C1AD7B2C1EDBA47700414854 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970331AB6318CB2E8E06A445 /* Pods-EurekaPlaygound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6WHDE42R62;
@@ -270,6 +350,7 @@
 		};
 		C1AD7B2D1EDBA47700414854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0177E6448A7D5C629695C32 /* Pods-EurekaPlaygound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6WHDE42R62;
@@ -300,6 +381,7 @@
 				C1AD7B2D1EDBA47700414854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_EurekaPlaygound {
+  umbrella header "Pods-EurekaPlaygound-umbrella.h"
+
+  export *
+  module * { export * }
+}
